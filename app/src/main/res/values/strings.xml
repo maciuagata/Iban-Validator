@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">IbanValidator</string>
+    <string name="my_app_name">IBAN Validator</string>
+    <string name="CHECK">CHECK </string>
+    <string name="result">True/False</string>
+    <string name="CheckFile">Check File</string>
+</resources>

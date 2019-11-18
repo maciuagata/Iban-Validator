@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/my_app_name"
+        android:textColor="@android:color/black"
+        android:textSize="30dp"
+        android:layout_marginTop="15dp"/>
+
+
+    <EditText
+        android:id="@+id/ibanField"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:hint="Input Iban"
+        android:textColorHint="@android:color/black"
+        android:textSize="20dp"
+        android:layout_marginTop="90dp"
+        android:inputType="text"
+        />
+
+    <Button
+        android:id="@+id/checkIban"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorCheck"
+        android:text="@string/CHECK"
+        android:layout_marginLeft="20dp"
+        />
+    <Button
+        android:id="@+id/checkFile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorFile"
+        android:text="@string/CheckFile"
+        android:layout_marginLeft="20dp"
+        />
+
+    <TextView
+        android:id="@+id/validate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="400dp"
+        android:text="True/False"
+        android:textSize="20dp"
+        android:textColor="@color/colorBlack"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Agata Maciulevic"
+        android:textSize="25dp"
+        android:layout_marginTop="520dp"
+        android:textColor="@color/colorBlack"/>
+
+
+</RelativeLayout>
